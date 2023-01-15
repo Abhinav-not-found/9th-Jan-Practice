@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main() {
+   int a;
+    cout<<"Enter a number: ";
+    cin>>a;
+    string result;
+    result=(a>0 ? "positive":"negative");
+    cout<<result;
+    return 0;
+}
